@@ -83,7 +83,7 @@ Now let's set up our scripts to start Vite. In package.json, put:
 "preview": "vite preview"
 ```
 
-Be sure to also add `"type: module"` to your package.json. Vite has deprecated support for Common.js and now requires you to use ESM style modules.
+Be sure to also add `"type": "module"` to your package.json. Vite has deprecated support for Common.js and now requires you to use ESM style modules.
 
 > Note: you will get a warning from Vite like `Files in the public directory are served at the root path.
 Instead of /public/style.css, use /style.css.` – ignore this, we'll fix it in a bit.
