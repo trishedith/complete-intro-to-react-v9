@@ -31,8 +31,6 @@
     "delayed-stream": "^1.0.0",
     "dotenv": "^16.4.5",
     "escape-string-regexp": "^4.0.0",
-    "eslint": "^9.9.1",
-    "eslint-config-prettier": "^9.1.0",
     "eslint-scope": "^8.4.0",
     "eslint-visitor-keys": "^4.2.1",
     "espree": "^10.4.0",
@@ -55,7 +53,6 @@
     "form-data-encoder": "^1.7.2",
     "formdata-node": "^4.4.1",
     "glob-parent": "^6.0.2",
-    "globals": "^15.9.0",
     "graceful-fs": "^4.2.11",
     "gray-matter": "^4.0.3",
     "has-flag": "^4.0.0",
@@ -101,7 +98,6 @@
     "picocolors": "^1.1.1",
     "postcss": "^8.4.31",
     "prelude-ls": "^1.2.1",
-    "prettier": "^3.3.3",
     "punycode": "^2.3.1",
     "queue-microtask": "^1.2.3",
     "react": "^18.3.1",
@@ -136,9 +132,15 @@
     "yocto-queue": "^0.1.0",
     "zod": "^3.23.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,html}\""
   },
   "repository": {
     "type": "git",
