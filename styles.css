@@ -15,6 +15,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: var(--background);
+  color: red;
 }
 
 ul,
@@ -97,7 +98,7 @@ h2 {
   font-size: 40px;
   line-height: auto;
   font-weight: 400;
-  color: var(--primary);
+  color: red;
   text-align: center;
 }
 
@@ -194,7 +195,7 @@ form > div > div > label {
 
 .pizza h1 {
   font-weight: normal;
-  color: var(--secondary);
+  color: red;
   font-size: 25px;
 }
 
@@ -286,7 +287,7 @@ button:disabled {
 }
 
 .index h1 {
-  color: var(--primary);
+  color: red;
   font-family: var(--font);
   font-weight: normal;
 }
